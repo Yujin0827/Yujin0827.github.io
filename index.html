@@ -209,11 +209,16 @@
     <!-- End #skills -->
 
     <div id="contact">
-        <h2>Email</h2>
-	<ul>
-	    <li>yjjeon08@naver.com</li>
-	    <li>yjjeon980827@gmail.com</li>
-	</ul>
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/yjjeon08@naver.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
     </div>
     <!-- End #contact -->
 
@@ -222,7 +227,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; <span id="current-year">2022</span> JeonYuJin
+                        Copyright &copy; <span id="current-year">2022</span> JeonYujin
                     </p>
                 </div>
                 <div class="col-sm-2 top">
